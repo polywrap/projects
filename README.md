@@ -52,6 +52,7 @@ https://github.com/polywrap/projects
     - Clair expresses her views on the project
     - Bill shares some feedback
 - During DAO-wide meetings (ex: ACDC), status updates can be provided
+- draft PR w/ updates
 
 ### Completed
 - Jill determines the work is completed

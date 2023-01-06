@@ -1,48 +1,43 @@
 # Polywrap Projects
-## Description
-TODO
+A place for our community to create & track in-progress projects.
 
 ## Motivation
-- Pain points
-    1. Unclear what different projects we are working on
-    2. Stand-up channel is not working for the team, need to think of new ideas around it
-    3. Missing project planning and retro aspects
-    4. Unclear on how different projects interconnect 
-    5. Missing mission & vision
-    6. Missing team/DAO values
+The goal of this system is to increase our ability to coordinate & make decisions at scale. It does this by addressing the following pain points:  
+* Unclear what projects are being worked on.
+* Unclear on how different projects interconnect.
+* Lack of project planning, feedback, and retrospectives.
+* Projects should align with the group's values, mission, and vision.
+* Stand-ups are tedious, and don't provide a great macro-level view.
 
 ## Principles
-- **Focus:** WGs should be focused on clear initiatives.
-- **Leadership:** WGs should be lead by 1 or more clearly identified individuals. Leadership should be emergent based on the initiative at hand, with a proven track record to increase trust w/ the DAO at large.
-- **Measurable:** WGs progress should be easily measurable.
-- **Imactful:** Clearly defined "audience" who will be impacted by the results of this project.
-- **Ephemeral:** WGs should not turn into "Organizational Silos", which have been documented to be detrimental to organizations at large. Instead, WGs should be ephemeral and last for a duration of time. I propose 2-3 months as a maximum, and if more time is needed come term-end, a new "season" of the same WG can be proposed.
-- **Informative:** The WG should be "informative" for any curious DAO member. This can be done through any medium, but it should be clearly defined in the WG's definition. For example, the following sources of information could be used: `GitHub Repo/Branch`, `Weekly Status Update`, `Discord Channel`, etc.
+Projects that are accepted into this repo should follow these overarching principles:  
+- **Focus:** Focused on a clear set of initiatives.
+- **Measurable:** Progress should be easily measurable.
+- **Imactful:** The "audience" who will be impacted is clearly understood and valued.
+- **Leadership:** Lead by 1 or more identifiable individuals. Leadership should have a proven track record, increase trust with the community at large.
+- **Informative:** Any curious community member should be able to inform themselves on the details of a project. Information can be disseminated using any medium, and should be clearly defined within the project's document.
+- **Ephemeral:** Projects should not turn into "Organizational Silos". Instead, projects should last for a pre-defined duration of time. 2-3 months should be used as a maximum timeframe, and if more time is needed come term-end, a new "chapter" of the same project can be proposed.
 
-## Example User Journey
-### New Project (Creation -> Activation -> In Progress -> Completed)
-- Jill has an idea for a new project
-    - Jill shares the idea with the group
-        - Option A: At a call
-        - Option B: In the chat
-
-https://github.com/polywrap/projects
-
-### Creation
-- Contributor Jill has an idea for a new project "foo"
-    - forks the TEMPLATE project spec
-    - drafts the "foo" project spec
-    - creates a new Pull Request
-        - signal to the group at large that she'd like to "launch" this new project
-
+## Process
 ### Activation
-- The DAO forms consensus around the new "foo" project
-    - Option 1: async
-        - PR: Contributor Jordan likes the idea, and comments on the PR in support + adds one approval
-        - Discord: Contributor Phil likes the idea, sends comments in discord saying so
-    - Option 2: call
-        - Pitch: Jill pitches to the DAO her project, receives feedback, gains general approval
-    - Final: PR approved (2 signers)
+1. **Create:**
+    * Create a new git branch.
+        * ex: `new-project-init`
+    * Duplicate & rename the `./in-progress/TEMPLATE.md` document.
+        * ex: `new-project.md`
+    * Complete all sections within the project document.
+2. **Propose:**
+    * Create a new pull-request, merging the project branch into the `main` branch.
+        * ex: `new-project-init` -> `main`
+    * Share & pitch your project to the rest of the community, gain their support!
+        * ex: discuss during a group chat or call
+3. **Activate:**
+    * Project will be "activated" when their pull-request gains approval, such that it can be merged into the `main` branch.
+    * Feedback can be shared in any fashion, but ultimately the pull-request will serve as the source of truth.
+
+### In Progress
+
+## Example Scenario
 
 ### In Progress
 - Jill gains approval, she is the leader and works with 2 others on the "foo" project

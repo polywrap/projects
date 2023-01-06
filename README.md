@@ -19,44 +19,36 @@ Projects that are accepted into this repo should follow these overarching princi
 - **Ephemeral:** Projects should not turn into "Organizational Silos". Instead, projects should last for a pre-defined duration of time. 2-3 months should be used as a maximum timeframe, and if more time is needed come term-end, a new "chapter" of the same project can be proposed.
 
 ## Process
-### Activation
+### Create a new project...
 1. **Create:**
-    * Create a new git branch.
-        * ex: `new-project-init`
-    * Duplicate & rename the `./in-progress/TEMPLATE.md` document.
-        * ex: `new-project.md`
-    * Complete all sections within the project document.
+    * Create a new git branch. (ex: `new-project-init`)
+    * Duplicate & rename the `./in-progress/TEMPLATE.md` document. (ex: `./in-progress/new-project.md`)
+    * Fill out all sections within the project document.
 2. **Propose:**
-    * Create a new pull-request, merging the project branch into the `main` branch.
-        * ex: `new-project-init` -> `main`
-    * Share & pitch your project to the rest of the community, gain their support!
-        * ex: discuss during a group chat or call
+    * Create a new pull-request, merging the project branch into the `main` branch. (ex: `new-project-init` -> `main`)
+    * Share & pitch your project to the rest of the community, gain their support! (ex: discuss within a group chat or call)
 3. **Activate:**
     * Project will be "activated" when their pull-request gains approval, such that it can be merged into the `main` branch.
     * Feedback can be shared in any fashion, but ultimately the pull-request will serve as the source of truth.
 
-### In Progress
+### Work on a project...
+4. **Execute:**
+    * Working towards completing your project's goals!
+5. **Share:**
+    * Share information with community members. This can be done in many ways, in either a "push" or "pull" fashion.
+6. **Midpoint Check-In:**
+    * Conduct a check-in meeting with interested community members at the midpoint of the project (i.e. half complete).
 
-## Example Scenario
-
-### In Progress
-- Jill gains approval, she is the leader and works with 2 others on the "foo" project
-- As they make progress, updates are clearly viewable at the "progress" link posted in the project spec
-    - Clair wants to know what the status of "foo" is, so she looks at the "progress" link in her own time, sees that good progress is being made.
-- Mid-point checkpoint meeting is conducted
-    - Clair expresses her views on the project
-    - Bill shares some feedback
-- During DAO-wide meetings (ex: ACDC), status updates can be provided
-- draft PR w/ updates
-
-### Completed
-- Jill determines the work is completed
-- Jill creates a PR with her completed updates, marking the project as finished
-    - async: Clair & Bill both respond on the PR with their approval
-- Demo is required to complete the submission.
-    - In-Meeting or async demos can both work
-    - A recording should be made
-- In the PR
-    - readiness checklist w/ 3rd party approval
-    - demo recording
-- Final: PR approved (2 signers)
+### Complete a project...
+7. **Submit:**
+    * Create a new git branch. (ex: `new-project-submit`)
+    * Move your project document into the `./completed` folder. (ex: `./completed/new-project.md`)
+    * Fill out all sections within the document's "submission" section.
+    * Create a new pull-request, merging the project branch into the `main` branch. (ex: `new-project-submit` -> `main`)
+8. **Demo:**
+    * Demos are required for submission.
+    * These can be done offline or live over a call, but must be recorded.
+    * Demo recording will be linked in the project document.
+9. **Acceptance:**
+    * Project will be "completed" when the pull-request gains approval, such that it can be merged into the `main` branch.
+    * Feedback can be shared in any fashion.

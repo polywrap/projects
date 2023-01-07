@@ -2,15 +2,14 @@
 A place for our community to create & track in-progress projects.
 
 ## Motivation
-The goal of this system is to increase our ability to coordinate & make decisions at scale. It does this by addressing the following pain points:  
+The goal of this repository is to increase our ability to coordinate & make decisions at scale. It does this by addressing the following pain points:  
 * Unclear what projects are being worked on.
-* Unclear on how different projects interconnect.
+* Unclear how different projects interconnect.
 * Lack of project planning, feedback, and retrospectives.
-* Projects should align with the group's values, mission, and vision.
-* Stand-ups are tedious, and don't provide a great macro-level view.
+* Projects should align with the community's values, mission, and vision.
 
 ## Principles
-Projects that are accepted into this repo should follow these overarching principles:  
+Projects accepted into this repo should follow these overarching principles:  
 - **Focus:** Focused on a clear set of initiatives.
 - **Measurable:** Progress should be easily measurable.
 - **Imactful:** The "audience" who will be impacted is clearly understood and valued.
@@ -43,12 +42,15 @@ Projects that are accepted into this repo should follow these overarching princi
 7. **Submit:**
     * Create a new git branch. (ex: `new-project-submit`)
     * Move your project document into the `./completed` folder. (ex: `./completed/new-project.md`)
-    * Fill out all sections within the document's "submission" section.
+    * Fill out the document's "submission" section.
     * Create a new pull-request, merging the project branch into the `main` branch. (ex: `new-project-submit` -> `main`)
-8. **Demo:**
-    * Demos are required for submission.
+8. **Demo & Retro:**
+    * Demos & retrospectives are required for submission.
     * These can be done offline or live over a call, but must be recorded.
-    * Demo recording will be linked in the project document.
+    * Recording will be linked in the project document.
 9. **Acceptance:**
     * Project will be "completed" when the pull-request gains approval, such that it can be merged into the `main` branch.
     * Feedback can be shared in any fashion.
+
+## Example
+If you'd like to see a basic example of what this could look like in practice, see [./completed/EXAMPLE.md](./completed/EXAMPLE.md).

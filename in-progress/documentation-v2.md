@@ -15,11 +15,17 @@
 - Ensure that we have a clear, copy-pasteable "Get Started" section for:
   - JS Client (use Polywrap within your own project)
   - Toolchain (build your own wrapper)
-  - **NOTE:** These should link to the appropriate Concepts sections as often as possible.
+  - **NOTE:** These should link to the appropriate Concepts and Reference sections as often as possible.
+- Comb through the rest of the Guides, ensure proper links for reference and concepts and up-to-date code.
 
 **Bonus goals**
 - Update Doc website styles to align with the Polywrap website redesign
   - This can be as simple as a stylesheet update!
+
+**Already completed (or very close)**
+- Client and CLI Reference sections, with auto-ingress
+  - Thank you [@krisbitney](https://github.com/krisbitney) for the Client readme and auto-ingress
+  - Need to merge [this PR](https://github.com/polywrap/documentation/pull/239)
 
 ## Non-Goals
 

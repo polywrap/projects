@@ -3,18 +3,30 @@
 
 [HackMD detailing Docs V2 outline](https://hackmd.io/qiDX0EX8SnqJE-Q9mGJOcQ)
 
-- Update the [Docs roadmap](https://github.com/orgs/polywrap/projects/6/views/17) with tasks that fully align with the HackMD outline
-  - All issues that are not directly linked to the outline should be removed from the roadmap for the duration of the project
 - Complete Step 1 & Step 2 of the HackMD outline
 - Clean up Guides per Step 3 specification
 
+### Tasks
+
+- Come up with clear way to organize the Concepts section that focuses on ease of introduction to the underlying WRAP protocol, and the Polywrap toolchain.
+  - **NOTE:** - I'd say the most important part of this would be the Client and Invoke, as it has the most immediate impact
+- Comb through the existing Concepts section
+  - Ensure it's "dry, high-level stuff"
+- Ensure that we have a clear, copy-pasteable "Get Started" section for:
+  - JS Client (use Polywrap within your own project)
+  - Toolchain (build your own wrapper)
+  - **NOTE:** These should link to the appropriate Concepts sections as often as possible.
+
 **Bonus goals**
 - Update Doc website styles to align with the Polywrap website redesign
+  - This can be as simple as a stylesheet update!
 
 ## Non-Goals
 
 - Adding new guides should not be part of this Project
   - We want to keep the scope of the Project manageable and predictable
+- Project version support
+  - We have multiple projects/packages, each with their own version. Need to find a way to support this neatly
 
 ## Duration
 
